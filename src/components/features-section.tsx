@@ -3,51 +3,51 @@ import { Badge } from "@/components/ui/badge"
 
 const features = [
   {
-    title: "Адаптивная нейрообработка",
-    description: "Самооптимизирующиеся алгоритмы, которые обучаются на нейронных паттернах и улучшают интерпретацию сигналов.",
-    icon: "brain",
-    badge: "ИИ",
-  },
-  {
-    title: "Медицинская защита",
-    description: "Шифрование по стандартам FDA со сквозной защитой конфиденциальных нейронных данных.",
-    icon: "lock",
-    badge: "Сертификат",
-  },
-  {
-    title: "Интуитивное управление",
-    description: "Естественная трансляция мыслей в действия с откликом менее миллисекунды и точностью 99,7%.",
-    icon: "globe",
-    badge: "Точность",
-  },
-  {
-    title: "Предиктивная калибровка",
-    description: "ML-модели, которые предугадывают намерения пользователя и оптимизируют нейронные пути.",
+    title: "Real-time рендеринг",
+    description: "Маппинг в реальном времени с кинематографическим качеством картинки. Unreal Engine обеспечивает рендеринг без задержек на любых поверхностях.",
     icon: "zap",
-    badge: "Умный",
+    badge: "Real-time",
   },
   {
-    title: "Биометрическая интеграция",
-    description: "Бесшовная синхронизация с мониторингом жизненных показателей для контроля здоровья.",
-    icon: "link",
-    badge: "Связь",
-  },
-  {
-    title: "Поддержка XR",
-    description: "Нативная совместимость с AR/VR-средами для терапевтических и рабочих приложений.",
+    title: "Любые поверхности",
+    description: "Проецирование на здания, сцены, сложные архитектурные объекты и нестандартные конструкции с точной геометрической коррекцией.",
     icon: "target",
-    badge: "XR Ready",
+    badge: "3D маппинг",
+  },
+  {
+    title: "Интерактивность",
+    description: "Контент реагирует на звук, движение и внешние данные. Живое взаимодействие с аудиторией через датчики и камеры.",
+    icon: "globe",
+    badge: "Интерактив",
+  },
+  {
+    title: "Lumen & Nanite",
+    description: "Полное использование технологий Lumen и Nanite для динамического глобального освещения и детализации без ограничений.",
+    icon: "brain",
+    badge: "UE5",
+  },
+  {
+    title: "Мультипроекторный риг",
+    description: "Seamless-соединение нескольких проекторов в единое полотно с автоматическим блендингом и калибровкой цвета.",
+    icon: "link",
+    badge: "Multi-proj",
+  },
+  {
+    title: "Живой контент",
+    description: "Интеграция с live-данными: погода, социальные сети, API — любой внешний источник становится частью шоу.",
+    icon: "lock",
+    badge: "Live Data",
   },
 ]
 
 export function FeaturesSection() {
   return (
-    <section className="py-24 px-6 bg-background">
+    <section id="features" className="py-24 px-6 bg-background">
       <div className="max-w-7xl mx-auto">
         <div className="text-center mb-16">
-          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Возможности нового поколения</h2>
+          <h2 className="text-4xl font-bold text-foreground mb-4 font-sans">Возможности нового уровня</h2>
           <p className="text-xl text-muted-foreground max-w-2xl mx-auto leading-relaxed">
-            Почувствуйте будущее с технологиями, которые переопределяют возможное
+            Unreal Engine открывает возможности, недоступные традиционным инструментам маппинга
           </p>
         </div>
 
@@ -61,9 +61,9 @@ export function FeaturesSection() {
               <CardHeader>
                 <div className="flex items-center justify-between mb-2">
                   <span className="text-3xl">
-                    {feature.icon === "brain" && "&#129504;"}
-                    {feature.icon === "lock" && "&#128274;"}
-                    {feature.icon === "globe" && "&#127760;"}
+                    {feature.icon === "brain" && "&#9654;"}
+                    {feature.icon === "lock" && "&#127381;"}
+                    {feature.icon === "globe" && "&#127808;"}
                     {feature.icon === "zap" && "&#9889;"}
                     {feature.icon === "link" && "&#128279;"}
                     {feature.icon === "target" && "&#127919;"}
